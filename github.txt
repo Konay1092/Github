@@ -30,3 +30,6 @@ git checkout branch-name
 
 how to direct create a branch and go to branch
 git branch -B branch-name
+
+how to delete branch 
+git branch -D branch-name
