@@ -3,8 +3,8 @@ VCS=Version Control System
 
 3 stage in github 
 
-1.modified stage(u,M)
-2.staging state(A)(git add .)
+1.modified stage(U,M)
+2.staging state(A)(git add .)(A)
 3. commit
 
 commit
@@ -15,3 +15,18 @@ commit
 git checkout commit-id
 git revert commit-id
 git reset --hard commit-id
+
+branch
+
+git branch -a 
+commit are on the master branch
+
+how to create a new branch
+git branch -M branchname
+
+checkout branch
+git checkout master
+git checkout branch-name
+
+how to direct create a branch and go to branch
+git branch -B branch-name
